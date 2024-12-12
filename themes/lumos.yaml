@@ -55,25 +55,9 @@ Lumos:
       hover-text-color: var(--primary-text-color)
       hover-shadow: 0px 2px 5px rgba(50, 130, 200, 0.15)
 
-      # Radio buttons
-      radio-button-unchecked-color: rgba(0, 0, 0, 0.3)
-      radio-button-checked-color: var(--primary-color)
-      radio-button-border-width: 2px
-      radio-button-border-color: rgba(0, 0, 0, 0.5)
-
-      # Etichete
-      label-badge-background-color: var(--secondary-background-color)
-      label-badge-text-color: var(--primary-text-color)
-      label-badge-red: rgb(255, 80, 100)
-      label-badge-green: rgb(90, 180, 100)
-      label-badge-blue: rgb(50, 130, 200)
-      label-badge-yellow: rgb(255, 220, 100)
-
-      # Dropdown-uri
-      material-background-color: var(--secondary-background-color)
-      material-secondary-background-color: var(--card-background-color)
-      mdc-select-fill-color: rgb(240, 242, 245)
+      # Dropdown-uri și input
       mdc-select-hover-line-color: var(--accent-color)
+      input-hover-line-color: var(--accent-color)
 
       # Progres
       ha-bar-background-color: rgb(230, 232, 235)
@@ -81,13 +65,6 @@ Lumos:
       # Efecte vizuale
       mdc-ripple-color: rgba(50, 130, 200, 0.3)
       mdc-ripple-duration: 0.3s
-
-      # 🎨 Seasonal Colors
-      spring-color: rgb(100, 175, 100) # Verde proaspăt
-      summer-color: rgb(245, 185, 85) # Galben cald
-      autumn-color: rgb(180, 100, 50) # Maro pământiu
-      winter-color: rgb(120, 170, 245) # Albastru rece
-      dynamic-primary-color: var(--spring-color)
 
     dark:
       # Culori principale
@@ -139,25 +116,9 @@ Lumos:
       hover-text-color: var(--primary-color)
       hover-shadow: 0px 2px 5px rgba(80, 149, 247, 0.25)
 
-      # Radio buttons
-      radio-button-unchecked-color: rgba(255, 255, 255, 0.3)
-      radio-button-checked-color: var(--primary-color)
-      radio-button-border-width: 2px
-      radio-button-border-color: rgba(255, 255, 255, 0.5)
-
-      # Etichete
-      label-badge-background-color: var(--secondary-background-color)
-      label-badge-text-color: var(--primary-text-color)
-      label-badge-red: rgb(255, 80, 100)
-      label-badge-green: rgb(90, 180, 100)
-      label-badge-blue: rgb(80, 149, 247)
-      label-badge-yellow: rgb(245, 220, 100)
-
-      # Dropdown-uri
-      material-background-color: var(--secondary-background-color)
-      material-secondary-background-color: var(--card-background-color)
-      mdc-select-fill-color: rgb(36, 38, 42)
+      # Dropdown-uri și input
       mdc-select-hover-line-color: var(--accent-color)
+      input-hover-line-color: var(--accent-color)
 
       # Progres
       ha-bar-background-color: rgb(48, 50, 54)
@@ -165,10 +126,3 @@ Lumos:
       # Efecte vizuale
       mdc-ripple-color: rgba(80, 149, 247, 0.2)
       mdc-ripple-duration: 0.3s
-
-      # 🎨 Seasonal Colors
-      spring-color: rgb(80, 140, 80) # Verde proaspăt
-      summer-color: rgb(210, 150, 50) # Galben cald
-      autumn-color: rgb(140, 70, 40) # Maro pământiu
-      winter-color: rgb(90, 130, 210) # Albastru rece
-      dynamic-primary-color: var(--winter-color)
