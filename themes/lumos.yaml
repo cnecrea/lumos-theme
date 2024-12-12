@@ -50,9 +50,10 @@ Lumos:
       code-editor-background-color: rgb(250, 250, 250)
 
       # Hover
-      hover-background-color: rgba(50, 130, 200, 0.2)
-      hover-text-color: var(--primary-color)
-      hover-shadow: 0px 4px 10px rgba(50, 130, 200, 0.15)
+      hover-background-color: rgba(50, 130, 200, 0.15)
+      hover-border-color: rgba(50, 130, 200, 0.4)
+      hover-text-color: var(--primary-text-color)
+      hover-shadow: 0px 2px 5px rgba(50, 130, 200, 0.15)
 
       # Radio buttons
       radio-button-unchecked-color: rgba(0, 0, 0, 0.3)
@@ -133,9 +134,10 @@ Lumos:
       code-editor-background-color: rgb(36, 38, 42)
 
       # Hover
-      hover-background-color: rgba(80, 149, 247, 0.3)
+      hover-background-color: rgba(80, 149, 247, 0.2)
+      hover-border-color: rgba(80, 149, 247, 0.4)
       hover-text-color: var(--primary-color)
-      hover-shadow: 0px 4px 10px rgba(80, 149, 247, 0.25)
+      hover-shadow: 0px 2px 5px rgba(80, 149, 247, 0.25)
 
       # Radio buttons
       radio-button-unchecked-color: rgba(255, 255, 255, 0.3)
