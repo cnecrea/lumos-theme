@@ -23,13 +23,13 @@ Lumos:
       sidebar-icon-color: rgb(143, 145, 150)
       sidebar-text-color: rgb(125, 127, 132)
       sidebar-background-color: var(--app-header-background-color)
-      sidebar-selected-icon-color: var(--primary-color)
+      sidebar-selected-icon-color: rgb(3, 169, 244)
       sidebar-selected-text-color: var(--primary-text-color)
       sidebar-icon-hover-color: rgba(30, 109, 220, 0.8)
       # Buttons
       paper-item-icon-color: rgb(143, 145, 150)
       paper-item-icon-active-color: var(--primary-color)
-      mdc-button-outline-color: rgb(30, 109, 220)
+      mdc-button-outline-color: rgb(3, 169, 244)
       button-hover-background-color: rgba(30, 109, 220, 0.1)
       button-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)
       button-border-radius: 6px
@@ -39,10 +39,10 @@ Lumos:
       state-icon-active-color: var(--paper-item-icon-active-color)
       state-icon-unavailable-color: rgba(169, 171, 176, 0.5)
       # Sliders
-      paper-slider-knob-color: rgb(30, 109, 220)
+      paper-slider-knob-color: rgb(3, 169, 244)
       paper-slider-knob-start-color: var(--paper-slider-knob-color)
       paper-slider-pin-color: var(--paper-slider-active-color)
-      paper-slider-active-color: rgb(30, 109, 220)
+      paper-slider-active-color: rgb(3, 169, 244)
       paper-slider-secondary-color: var(--paper-slider-active-color)
       slider-track-color: rgba(238, 240, 244, 0.6)
       slider-track-active-color: rgba(30, 109, 220, 0.3)
@@ -51,7 +51,7 @@ Lumos:
       label-badge-text-color: var(--primary-text-color)
       label-badge-red: rgb(255, 48, 105)
       label-badge-green: rgb(75, 189, 94)
-      label-badge-blue: rgb(30, 109, 220)
+      label-badge-blue: rgb(3, 169, 244)
       label-badge-yellow: rgb(255, 212, 0)
       label-badge-gray: rgb(125, 127, 132)
       # Cards
@@ -105,7 +105,7 @@ Lumos:
       error-color: rgb(255, 48, 105)
       warning-color: rgb(255, 212, 0)
       sucess-color: rgb(75, 189, 94)
-      info-color: rgb(30, 109, 220)
+      info-color: rgb(3, 169, 244)
       # Progress bar
       ha-bar-background-color: var(--slider-track-color)
       # Mushroom Custom cards
@@ -157,7 +157,7 @@ Lumos:
       sidebar-icon-color: rgb(159, 160, 161)
       sidebar-text-color: rgb(197, 198, 199)
       sidebar-background-color: var(--app-header-background-color)
-      sidebar-selected-icon-color: var(--primary-color)
+      sidebar-selected-icon-color: rgb(3, 169, 244)
       sidebar-selected-text-color: var(--primary-text-color)
       sidebar-icon-hover-color: rgba(80, 149, 247, 0.8)
       # Buttons
