@@ -5,57 +5,51 @@ Lumos:
   modes:
     light:
       # Culori principale
-      primary-color: rgb(50, 130, 200)
-      primary-background-color: rgb(240, 242, 245)
-      secondary-background-color: rgb(230, 232, 235)
-      divider-color: rgb(220, 220, 225)
+      primary-color: rgb(30, 109, 220)
+      primary-background-color: rgb(245, 246, 248)
+      secondary-background-color: rgb(235, 236, 238)
+      divider-color: rgb(228, 230, 234)
       accent-color: var(--primary-color)
 
       # Text
-      primary-text-color: rgb(50, 50, 50)
-      secondary-text-color: rgb(120, 120, 120)
-      disabled-text-color: rgb(180, 180, 180)
+      primary-text-color: rgb(38, 39, 43)
+      secondary-text-color: rgb(125, 127, 132)
+      disabled-text-color: rgb(169, 171, 176)
 
       # Header
-      app-header-background-color: rgb(240, 242, 245)
+      app-header-background-color: rgb(245, 246, 248)
       app-header-text-color: var(--primary-text-color)
       app-header-selection-bar-color: var(--primary-color)
-      app-header-edit-background-color: rgb(220, 222, 225)
+      app-header-edit-background-color: rgb(195, 196, 198)
 
       # Sidebar
-      sidebar-background-color: rgb(235, 235, 240)
-      sidebar-icon-color: rgb(150, 150, 150)
+      sidebar-background-color: rgb(235, 236, 238)
+      sidebar-icon-color: rgb(143, 145, 150)
       sidebar-text-color: var(--secondary-text-color)
       sidebar-selected-icon-color: var(--primary-color)
       sidebar-selected-text-color: var(--primary-text-color)
 
       # Carduri și elemente
-      card-background-color: rgb(250, 250, 250)
-      ha-card-background: var(--card-background-color)
-      ha-card-border-color: rgb(220, 220, 220)
-      ha-card-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05)
+      card-background-color: rgb(255, 255, 255)
+      ha-card-border-color: rgba(0, 0, 0, 0.1)
+      ha-card-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1)
       paper-dialog-background-color: var(--card-background-color)
       paper-listbox-background-color: var(--card-background-color)
 
-      # Slider și comutatoare
-      paper-slider-knob-color: rgb(50, 130, 200)
-      slider-track-color: rgb(210, 210, 215)
-      switch-checked-button-color: rgb(235, 236, 240)
-      switch-checked-track-color: rgb(50, 120, 190)
-      switch-unchecked-button-color: rgb(200, 200, 205)
-      switch-unchecked-track-color: rgb(220, 220, 225)
-
-      # Text și cod
-      markdown-code-background-color: rgb(240, 242, 245)
-      code-editor-background-color: rgb(250, 250, 250)
-
       # Hover
-      hover-background-color: rgba(50, 130, 200, 0.15)
-      hover-border-color: rgba(50, 130, 200, 0.4)
-      hover-text-color: var(--primary-text-color)
-      hover-shadow: 0px 2px 5px rgba(50, 130, 200, 0.15)
+      hover-background-color: rgba(30, 109, 220, 0.1)
+      hover-shadow: 0px 4px 8px rgba(30, 109, 220, 0.15)
+      hover-text-color: var(--primary-color)
 
-      # Dropdown-uri și input
+      # Slider și comutatoare
+      paper-slider-knob-color: rgb(30, 109, 220)
+      slider-track-color: rgb(238, 240, 244)
+      switch-checked-button-color: rgb(235, 236, 238)
+      switch-checked-track-color: rgb(20, 98, 208)
+      switch-unchecked-button-color: var(--switch-checked-button-color)
+      switch-unchecked-track-color: rgb(205, 207, 210)
+
+      # Dropdown-uri și Input
       mdc-select-hover-line-color: var(--accent-color)
       input-hover-line-color: var(--accent-color)
 
@@ -63,19 +57,23 @@ Lumos:
       ha-bar-background-color: rgb(230, 232, 235)
 
       # Efecte vizuale
-      mdc-ripple-color: rgba(50, 130, 200, 0.3)
+      mdc-ripple-color: rgba(30, 109, 220, 0.3)
       mdc-ripple-duration: 0.3s
+
+      # Culori dinamice
+      dynamic-primary-color: rgb(100, 149, 237) # Primăvară
+      dynamic-secondary-color: rgb(255, 165, 0) # Vară
 
     dark:
       # Culori principale
       primary-color: rgb(80, 149, 247)
-      primary-background-color: rgb(28, 30, 33)
-      secondary-background-color: rgb(36, 38, 42)
+      primary-background-color: rgb(25, 27, 30)
+      secondary-background-color: rgb(35, 37, 40)
       divider-color: rgb(48, 49, 53)
       accent-color: var(--primary-color)
 
       # Text
-      primary-text-color: rgb(251, 251, 251)
+      primary-text-color: rgb(230, 230, 230)
       secondary-text-color: rgb(196, 197, 198)
       disabled-text-color: rgb(99, 101, 103)
 
@@ -93,30 +91,25 @@ Lumos:
 
       # Carduri și elemente
       card-background-color: rgb(36, 38, 42)
-      ha-card-border-color: rgb(48, 49, 53)
-      ha-card-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2)
+      ha-card-border-color: rgba(0, 0, 0, 0.1)
+      ha-card-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1)
       paper-dialog-background-color: var(--card-background-color)
       paper-listbox-background-color: var(--card-background-color)
+
+      # Hover
+      hover-background-color: rgba(80, 149, 247, 0.1)
+      hover-shadow: 0px 4px 8px rgba(80, 149, 247, 0.15)
+      hover-text-color: var(--primary-color)
 
       # Slider și comutatoare
       paper-slider-knob-color: rgb(80, 149, 247)
       slider-track-color: rgb(98, 99, 103)
       switch-checked-button-color: rgb(255, 255, 255)
       switch-checked-track-color: rgb(55, 132, 242)
-      switch-unchecked-button-color: rgb(100, 100, 100)
+      switch-unchecked-button-color: var(--switch-checked-button-color)
       switch-unchecked-track-color: rgb(150, 150, 150)
 
-      # Text și cod
-      markdown-code-background-color: rgb(42, 44, 48)
-      code-editor-background-color: rgb(36, 38, 42)
-
-      # Hover
-      hover-background-color: rgba(80, 149, 247, 0.2)
-      hover-border-color: rgba(80, 149, 247, 0.4)
-      hover-text-color: var(--primary-color)
-      hover-shadow: 0px 2px 5px rgba(80, 149, 247, 0.25)
-
-      # Dropdown-uri și input
+      # Dropdown-uri și Input
       mdc-select-hover-line-color: var(--accent-color)
       input-hover-line-color: var(--accent-color)
 
@@ -124,5 +117,9 @@ Lumos:
       ha-bar-background-color: rgb(48, 50, 54)
 
       # Efecte vizuale
-      mdc-ripple-color: rgba(80, 149, 247, 0.2)
+      mdc-ripple-color: rgba(80, 149, 247, 0.3)
       mdc-ripple-duration: 0.3s
+
+      # Culori dinamice
+      dynamic-primary-color: rgb(50, 130, 200) # Iarnă
+      dynamic-secondary-color: rgb(180, 50, 50) # Toamnă
