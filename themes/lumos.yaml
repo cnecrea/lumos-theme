@@ -50,8 +50,9 @@ Lumos:
       code-editor-background-color: rgb(250, 250, 250)
 
       # Hover
-      hover-background-color: rgba(0, 0, 0, 0.05)
-      hover-text-color: var(--primary-text-color)
+      hover-background-color: rgba(50, 130, 200, 0.2)
+      hover-text-color: var(--primary-color)
+      hover-shadow: 0px 4px 10px rgba(50, 130, 200, 0.15)
 
       # Etichete
       label-badge-background-color: var(--secondary-background-color)
@@ -126,8 +127,9 @@ Lumos:
       code-editor-background-color: rgb(36, 38, 42)
 
       # Hover
-      hover-background-color: rgba(255, 255, 255, 0.1)
-      hover-text-color: var(--primary-text-color)
+      hover-background-color: rgba(80, 149, 247, 0.3)
+      hover-text-color: var(--primary-color)
+      hover-shadow: 0px 4px 10px rgba(80, 149, 247, 0.25)
 
       # Etichete
       label-badge-background-color: var(--secondary-background-color)
