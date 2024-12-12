@@ -54,6 +54,12 @@ Lumos:
       hover-text-color: var(--primary-color)
       hover-shadow: 0px 4px 10px rgba(50, 130, 200, 0.15)
 
+      # Radio buttons
+      radio-button-unchecked-color: rgba(0, 0, 0, 0.3)
+      radio-button-checked-color: var(--primary-color)
+      radio-button-border-width: 2px
+      radio-button-border-color: rgba(0, 0, 0, 0.5)
+
       # Etichete
       label-badge-background-color: var(--secondary-background-color)
       label-badge-text-color: var(--primary-text-color)
@@ -130,6 +136,12 @@ Lumos:
       hover-background-color: rgba(80, 149, 247, 0.3)
       hover-text-color: var(--primary-color)
       hover-shadow: 0px 4px 10px rgba(80, 149, 247, 0.25)
+
+      # Radio buttons
+      radio-button-unchecked-color: rgba(255, 255, 255, 0.3)
+      radio-button-checked-color: var(--primary-color)
+      radio-button-border-width: 2px
+      radio-button-border-color: rgba(255, 255, 255, 0.5)
 
       # Etichete
       label-badge-background-color: var(--secondary-background-color)
