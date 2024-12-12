@@ -1,11 +1,10 @@
 # Theme based on the Things 3 app for iOS and macOS
 # Creator: Ciprian Nicolae - @cnecrea
-
 Lumos:
   modes:
     light:
       # Header:
-      app-header-background-color: rgb(245, 246, 248)
+      app-header-background-color: linear-gradient(90deg, rgb(245, 246, 248) 0%, rgb(235, 236, 238) 100%)
       app-header-text-color: var(--primary-text-color)
       app-header-selection-bar-color: var(--primary-color)
       app-header-edit-background-color: rgb(195, 196, 198)
@@ -16,31 +15,37 @@ Lumos:
       divider-color: rgb(228, 230, 234)
       accent-color: var(--primary-color)
       # Text
-      primary-text-color: rgb(38, 39, 43)
+      primary-text-color: rgb(33, 37, 41)
       secondary-text-color: rgb(125, 127, 132)
       text-primary-color: var(--primary-text-color)
-      disabled-text-color: rgb(169, 171, 176)
+      disabled-text-color: rgba(169, 171, 176, 0.8)
       # Sidebar Menu
       sidebar-icon-color: rgb(143, 145, 150)
       sidebar-text-color: rgb(125, 127, 132)
       sidebar-background-color: var(--app-header-background-color)
       sidebar-selected-icon-color: var(--primary-color)
       sidebar-selected-text-color: var(--primary-text-color)
+      sidebar-icon-hover-color: rgba(30, 109, 220, 0.8)
       # Buttons
       paper-item-icon-color: rgb(143, 145, 150)
       paper-item-icon-active-color: var(--primary-color)
       mdc-button-outline-color: rgb(30, 109, 220)
+      button-hover-background-color: rgba(30, 109, 220, 0.1)
+      button-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)
+      button-border-radius: 6px
+      button-animation: all 0.2s ease-in-out
       # States and Badges
       state-icon-color: var(--paper-item-icon-color)
       state-icon-active-color: var(--paper-item-icon-active-color)
-      state-icon-unavailable-color: rgb(220, 220, 220)
+      state-icon-unavailable-color: rgba(169, 171, 176, 0.5)
       # Sliders
       paper-slider-knob-color: rgb(30, 109, 220)
       paper-slider-knob-start-color: var(--paper-slider-knob-color)
       paper-slider-pin-color: var(--paper-slider-active-color)
       paper-slider-active-color: rgb(30, 109, 220)
       paper-slider-secondary-color: var(--paper-slider-active-color)
-      slider-track-color: rgb(238, 240, 244)
+      slider-track-color: rgba(238, 240, 244, 0.6)
+      slider-track-active-color: rgba(30, 109, 220, 0.3)
       # Labels
       label-badge-background-color: var(--secondary-background-color)
       label-badge-text-color: var(--primary-text-color)
@@ -53,6 +58,8 @@ Lumos:
       card-background-color: rgb(255, 255, 255)
       ha-card-background: rgb(255, 255, 255)
       ha-card-border-color: rgb(228, 230, 234)
+      card-border-radius: 8px
+      card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
       paper-dialog-background-color: var(--card-background-color)
       paper-listbox-background-color: var(--card-background-color)
       paper-card-background-color: var(--card-background-color)
@@ -129,10 +136,9 @@ Lumos:
       rgb-state-input-boolean-color: var(--rgb-accent-color)
       rgb-state-humidifier-color: var(--rgb-accent-color)
       rgb-state-cover-color: var(--rgb-accent-color)
-    #
     dark:
       # Header:
-      app-header-background-color: rgb(36, 38, 42)
+      app-header-background-color: linear-gradient(90deg, rgb(36, 38, 42) 0%, rgb(28, 30, 33) 100%)
       app-header-text-color: var(--primary-text-color)
       app-header-selection-bar-color: var(--primary-color)
       app-header-edit-background-color: rgb(72, 73, 73)
@@ -143,31 +149,37 @@ Lumos:
       divider-color: rgb(48, 49, 53)
       accent-color: var(--primary-color)
       # Text
-      primary-text-color: rgb(251, 251, 251)
+      primary-text-color: rgb(240, 240, 240)
       secondary-text-color: rgb(196, 197, 198)
       text-primary-color: var(--primary-text-color)
-      disabled-text-color: rgb(99, 101, 103)
+      disabled-text-color: rgba(99, 101, 103, 0.8)
       # Sidebar Menu
       sidebar-icon-color: rgb(159, 160, 161)
       sidebar-text-color: rgb(197, 198, 199)
       sidebar-background-color: var(--app-header-background-color)
       sidebar-selected-icon-color: var(--primary-color)
       sidebar-selected-text-color: var(--primary-text-color)
+      sidebar-icon-hover-color: rgba(80, 149, 247, 0.8)
       # Buttons
       paper-item-icon-color: rgb(159, 160, 161)
       paper-item-icon-active-color: var(--primary-color)
       mdc-button-outline-color: rgb(80, 149, 247)
+      button-hover-background-color: rgba(80, 149, 247, 0.1)
+      button-shadow: 0 1px 3px rgba(0, 0, 0, 0.4)
+      button-border-radius: 6px
+      button-animation: all 0.2s ease-in-out
       # States and Badges
       state-icon-color: var(--paper-item-icon-color)
       state-icon-active-color: var(--paper-item-icon-active-color)
-      state-icon-unavailable-color: rgb(99, 101, 103)
+      state-icon-unavailable-color: rgba(99, 101, 103, 0.5)
       # Sliders
       paper-slider-knob-color: rgb(80, 149, 247)
       paper-slider-knob-start-color: var(--paper-slider-knob-color)
       paper-slider-pin-color: var(--paper-slider-active-color)
       paper-slider-active-color: rgb(80, 149, 247)
       paper-slider-secondary-color: var(--paper-slider-active-color)
-      slider-track-color: rgb(98, 99, 103)
+      slider-track-color: rgba(98, 99, 103, 0.6)
+      slider-track-active-color: rgba(80, 149, 247, 0.3)
       # Labels
       label-badge-background-color: var(--secondary-background-color)
       label-badge-text-color: var(--primary-text-color)
@@ -180,6 +192,8 @@ Lumos:
       card-background-color: rgb(36, 38, 42)
       ha-card-background: rgb(36, 38, 42)
       ha-card-border-color: rgb(48, 49, 53)
+      card-border-radius: 8px
+      card-shadow: 0 2px 4px rgba(0, 0, 0, 0.5)
       paper-dialog-background-color: var(--card-background-color)
       paper-listbox-background-color: var(--card-background-color)
       paper-card-background-color: var(--card-background-color)
@@ -228,31 +242,3 @@ Lumos:
       info-color: rgb(80, 149, 247)
       # Progress bar
       ha-bar-background-color: var(--slider-track-color)
-      # Mushroom Custom cards
-      mush-rgb-state-entity: 80, 149, 247
-      mush-rgb-green: 75, 189, 94
-      mush-rgb-yellow: 255, 212, 0
-      mush-rgb-orange: 201, 96, 3
-      mush-rgb-cyan: 90, 200, 245
-      mush-rgb-purple: 191, 90, 242
-      mush-rgb-pink: 255, 55, 95
-      mush-rgb-red: 255, 48, 105
-      mush-rgb-gray: 89, 90, 90
-      mush-rgb-disabled: 159, 160, 161
-      mush-rgb-state-media-player: 80, 149, 247
-      #RGB
-      rgb-primary-text-color: 251, 251, 251
-      rgb-primary-color: 251, 251, 251
-      rgb-secondary-text-color: 196, 197, 198
-      rgb-disabled-color: 159, 160, 161
-      rgb-accent-color: 80, 149, 247
-      rgb-state-inactive-color: 150, 150, 150
-      rgb-state-switch-color: var(--rgb-accent-color)
-      rgb-state-light-color: var(--rgb-accent-color)
-      rgb-state-fan-color: var(--rgb-accent-color)
-      rgb-state-script-color: var(--rgb-accent-color)
-      rgb-state-vacuum-color: var(--rgb-accent-color)
-      rgb-state-remote-color: var(--rgb-accent-color)
-      rgb-state-input-boolean-color: var(--rgb-accent-color)
-      rgb-state-humidifier-color: var(--rgb-accent-color)
-      rgb-state-cover-color: var(--rgb-accent-color)
