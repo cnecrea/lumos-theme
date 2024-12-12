@@ -129,16 +129,7 @@ Lumos:
       rgb-state-input-boolean-color: var(--rgb-accent-color)
       rgb-state-humidifier-color: var(--rgb-accent-color)
       rgb-state-cover-color: var(--rgb-accent-color)
-      # Additional colors
-      spring-color: rgb(80, 140, 80) # Verde proaspăt
-      summer-color: rgb(210, 150, 50) # Galben cald
-      autumn-color: rgb(140, 70, 40) # Maro pământiu
-      winter-color: rgb(90, 130, 210) # Albastru rece
-      dynamic-primary-color: var(--spring-color)
-      # Visual Effects
-      mdc-ripple-color: rgba(80, 149, 247, 0.3)
-      mdc-ripple-duration: 0.3s
-    #
+#
     dark:
       # Header:
       app-header-background-color: rgb(36, 38, 42)
@@ -265,12 +256,3 @@ Lumos:
       rgb-state-input-boolean-color: var(--rgb-accent-color)
       rgb-state-humidifier-color: var(--rgb-accent-color)
       rgb-state-cover-color: var(--rgb-accent-color)
-      # Additional colors
-      spring-color: rgb(80, 140, 80) # Verde proaspăt
-      summer-color: rgb(210, 150, 50) # Galben cald
-      autumn-color: rgb(140, 70, 40) # Maro pământiu
-      winter-color: rgb(90, 130, 210) # Albastru rece
-      dynamic-primary-color: var(--spring-color)
-      # Visual Effects
-      mdc-ripple-color: rgba(80, 149, 247, 0.3)
-      mdc-ripple-duration: 0.3s
