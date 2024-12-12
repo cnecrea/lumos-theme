@@ -2,14 +2,6 @@
 # Creator: Ciprian Nicolae - @cnecrea
 
 Lumos:
-# Theme based on the Things 3 app for iOS and macOS
-# Creator: Juan - @juanmtech
-# Website: https://www.juanmtech.com
-# YouTube Channel: https://youtube.com/juanmtech
-# My Home Assistant Config files: https://github.com/JuanMTech/Home_Assistant_files
-#
-#
-Things:
   modes:
     light:
       # Header:
