@@ -129,7 +129,7 @@ Lumos:
       rgb-state-input-boolean-color: var(--rgb-accent-color)
       rgb-state-humidifier-color: var(--rgb-accent-color)
       rgb-state-cover-color: var(--rgb-accent-color)
-#
+    #
     dark:
       # Header:
       app-header-background-color: rgb(36, 38, 42)
