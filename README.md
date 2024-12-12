@@ -59,40 +59,40 @@ Example automation for seasons:
 
    ```yaml
 automation:
-- alias: "Change Theme by Season"
-  trigger:
-    - platform: time
-      at: "00:00:00"
-  action:
-    - choose:
-        - conditions:
-            - condition: template
-              value_template: "{{ now().month in [3, 4, 5] }}"
-          sequence:
-            - service: frontend.set_theme
-              data:
-                name: Lumos Spring
-        - conditions:
-            - condition: template
-              value_template: "{{ now().month in [6, 7, 8] }}"
-          sequence:
-            - service: frontend.set_theme
-              data:
-                name: Lumos Summer
-        - conditions:
-            - condition: template
-              value_template: "{{ now().month in [9, 10, 11] }}"
-          sequence:
-            - service: frontend.set_theme
-              data:
-                name: Lumos Autumn
-        - conditions:
-            - condition: template
-              value_template: "{{ now().month in [12, 1, 2] }}"
-          sequence:
-            - service: frontend.set_theme
-              data:
-                name: Lumos Winter
+  - alias: "Change Theme by Season"
+    trigger:
+      - platform: time
+        at: "00:00:00"
+    action:
+      - choose:
+          - conditions:
+              - condition: template
+                value_template: "{{ now().month in [3, 4, 5] }}"
+            sequence:
+              - service: frontend.set_theme
+                data:
+                  name: Lumos
+          - conditions:
+              - condition: template
+                value_template: "{{ now().month in [6, 7, 8] }}"
+            sequence:
+              - service: frontend.set_theme
+                data:
+                  name: Lumos
+          - conditions:
+              - condition: template
+                value_template: "{{ now().month in [9, 10, 11] }}"
+            sequence:
+              - service: frontend.set_theme
+                data:
+                  name: Lumos
+          - conditions:
+              - condition: template
+                value_template: "{{ now().month in [12, 1, 2] }}"
+            sequence:
+              - service: frontend.set_theme
+                data:
+                  name: Lumos
    ```
 
 ### 🎛️ User Customization
@@ -120,4 +120,3 @@ Lumos offers a beautiful and practical way to enhance your Home Assistant interf
 Feel free to suggest improvements, open an issue, or contribute to the project. Enjoy your Lumos Theme experience! 😊
 
 ---
-
