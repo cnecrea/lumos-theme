@@ -5,14 +5,14 @@ Lumos:
   modes:
     light:
       # Culori principale
-      primary-color: rgb(50, 130, 200) # Ton mai soft pentru culoarea principală
-      primary-background-color: rgb(240, 242, 245) # Gri cald în loc de alb pur
-      secondary-background-color: rgb(230, 232, 235) # Contrast subtil
+      primary-color: rgb(50, 130, 200)
+      primary-background-color: rgb(240, 242, 245)
+      secondary-background-color: rgb(230, 232, 235)
       divider-color: rgb(220, 220, 225)
       accent-color: var(--primary-color)
 
       # Text
-      primary-text-color: rgb(50, 50, 50) # Contrast mai mic decât negrul pur
+      primary-text-color: rgb(50, 50, 50)
       secondary-text-color: rgb(120, 120, 120)
       disabled-text-color: rgb(180, 180, 180)
 
@@ -23,23 +23,23 @@ Lumos:
       app-header-edit-background-color: rgb(220, 222, 225)
 
       # Sidebar
-      sidebar-background-color: rgb(235, 235, 240) # Gri cald
+      sidebar-background-color: rgb(235, 235, 240)
       sidebar-icon-color: rgb(150, 150, 150)
       sidebar-text-color: var(--secondary-text-color)
       sidebar-selected-icon-color: var(--primary-color)
       sidebar-selected-text-color: var(--primary-text-color)
 
       # Carduri și elemente
-      card-background-color: rgb(250, 250, 250) # Fundal neutru
+      card-background-color: rgb(250, 250, 250)
       ha-card-background: var(--card-background-color)
-      ha-card-border-color: rgb(220, 220, 220) # Linie fină
-      ha-card-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05) # Umbră subtilă
+      ha-card-border-color: rgb(220, 220, 220)
+      ha-card-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05)
       paper-dialog-background-color: var(--card-background-color)
       paper-listbox-background-color: var(--card-background-color)
 
       # Slider și comutatoare
-      paper-slider-knob-color: rgb(50, 130, 200) # Culoare mai soft
-      slider-track-color: rgb(210, 210, 215) # Fundal moale
+      paper-slider-knob-color: rgb(50, 130, 200)
+      slider-track-color: rgb(210, 210, 215)
       switch-checked-button-color: rgb(235, 236, 240)
       switch-checked-track-color: rgb(50, 120, 190)
       switch-unchecked-button-color: rgb(200, 200, 205)
@@ -49,9 +49,9 @@ Lumos:
       markdown-code-background-color: rgb(240, 242, 245)
       code-editor-background-color: rgb(250, 250, 250)
 
-      # Efecte vizuale
-      mdc-ripple-color: rgba(50, 130, 200, 0.3) # Tranziție subtilă
-      mdc-ripple-duration: 0.3s
+      # Hover
+      hover-background-color: rgba(0, 0, 0, 0.05)
+      hover-text-color: var(--primary-text-color)
 
       # Etichete
       label-badge-background-color: var(--secondary-background-color)
@@ -70,25 +70,9 @@ Lumos:
       # Progres
       ha-bar-background-color: rgb(230, 232, 235)
 
-      # Mushroom Custom Cards
-      mush-rgb-state-entity: 50, 130, 200
-      mush-rgb-green: 90, 180, 100
-      mush-rgb-yellow: 255, 220, 100
-      mush-rgb-orange: 250, 150, 50
-      mush-rgb-cyan: 80, 200, 220
-      mush-rgb-purple: 150, 100, 250
-      mush-rgb-pink: 250, 80, 130
-      mush-rgb-red: 255, 80, 100
-      mush-rgb-gray: 150, 150, 150
-      mush-rgb-disabled: 180, 180, 180
-
-      # RGB pentru alte stări
-      rgb-primary-text-color: 50, 50, 50
-      rgb-secondary-text-color: 120, 120, 120
-      rgb-accent-color: 50, 130, 200
-      rgb-disabled-color: 180, 180, 180
-      rgb-state-inactive-color: 160, 160, 160
-      rgb-state-switch-color: var(--rgb-accent-color)
+      # Efecte vizuale
+      mdc-ripple-color: rgba(50, 130, 200, 0.3)
+      mdc-ripple-duration: 0.3s
 
     dark:
       # Culori principale
@@ -98,9 +82,10 @@ Lumos:
       divider-color: rgb(48, 49, 53)
       accent-color: var(--primary-color)
 
-      # Accesibilitate
-      high-contrast-text-color: rgb(255, 255, 255)
-      low-contrast-text-color: rgb(196, 197, 198)
+      # Text
+      primary-text-color: rgb(251, 251, 251)
+      secondary-text-color: rgb(196, 197, 198)
+      disabled-text-color: rgb(99, 101, 103)
 
       # Header
       app-header-background-color: rgb(36, 38, 42)
@@ -108,59 +93,52 @@ Lumos:
       app-header-selection-bar-color: var(--primary-color)
       app-header-edit-background-color: rgb(72, 73, 73)
 
-      # Text
-      primary-text-color: rgb(251, 251, 251)
-      secondary-text-color: rgb(196, 197, 198)
-      disabled-text-color: rgb(99, 101, 103)
-
       # Sidebar
       sidebar-background-color: var(--app-header-background-color)
       sidebar-icon-color: rgb(159, 160, 161)
       sidebar-selected-icon-color: var(--primary-color)
       sidebar-text-color: var(--secondary-text-color)
 
-      # Carduri
+      # Carduri și elemente
       card-background-color: rgb(36, 38, 42)
       ha-card-border-color: rgb(48, 49, 53)
       ha-card-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2)
+      paper-dialog-background-color: var(--card-background-color)
+      paper-listbox-background-color: var(--card-background-color)
 
-      # Button Hover
-      button-hover-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3)
-
-      # Slider
+      # Slider și comutatoare
       paper-slider-knob-color: rgb(80, 149, 247)
       slider-track-color: rgb(98, 99, 103)
-
-      # Switches
       switch-checked-button-color: rgb(255, 255, 255)
       switch-checked-track-color: rgb(55, 132, 242)
+      switch-unchecked-button-color: rgb(100, 100, 100)
+      switch-unchecked-track-color: rgb(150, 150, 150)
 
-      # Cerculețe de selectare și checkbox-uri
-      mdc-checkbox-unchecked-color: rgb(150, 150, 150) # Gri mai deschis
-      mdc-checkbox-unchecked-hover-color: rgb(180, 180, 180) # Contrast mai mare la hover
-      mdc-checkbox-disable-color: rgb(100, 100, 100) # Gri pentru dezactivare
-      mdc-radio-unchecked-color: rgb(150, 150, 150) # Culoare pentru radio button-uri
-      mdc-radio-hover-color: rgb(180, 180, 180) # Culoare la hover pentru radio
-      mdc-radio-checked-color: rgb(80, 149, 247) # Albastru pentru radio activ
+      # Text și cod
+      markdown-code-background-color: rgb(42, 44, 48)
+      code-editor-background-color: rgb(36, 38, 42)
 
-      # Moduri sezoniere
-      spring-color: rgb(100, 175, 100)
-      summer-color: rgb(245, 185, 85)
-      autumn-color: rgb(180, 100, 50)
-      winter-color: rgb(120, 170, 245)
+      # Hover
+      hover-background-color: rgba(255, 255, 255, 0.1)
+      hover-text-color: var(--primary-text-color)
 
-      # Dinamică
-      dynamic-primary-color: var(--primary-color)
-      dynamic-background-color: var(--primary-background-color)
+      # Etichete
+      label-badge-background-color: var(--secondary-background-color)
+      label-badge-text-color: var(--primary-text-color)
+      label-badge-red: rgb(255, 80, 100)
+      label-badge-green: rgb(90, 180, 100)
+      label-badge-blue: rgb(80, 149, 247)
+      label-badge-yellow: rgb(245, 220, 100)
 
-      # Mobile Optimizations
-      mobile-card-border-radius: 8px
-      mobile-font-size: 14px
+      # Dropdown-uri
+      material-background-color: var(--secondary-background-color)
+      material-secondary-background-color: var(--card-background-color)
+      mdc-select-fill-color: rgb(36, 38, 42)
+      mdc-select-hover-line-color: var(--accent-color)
 
-      # Efecte vizuale suplimentare
-      mdc-ripple-color: var(--accent-color)
-      mdc-ripple-duration: 0.2s
+      # Progres
+      ha-bar-background-color: rgb(48, 50, 54)
 
-      # Tema pentru carduri personalizate
-      custom-card-background-color: var(--card-background-color)
-      custom-card-border-color: var(--ha-card-border-color)
+      # Efecte vizuale
+      mdc-ripple-color: rgba(80, 149, 247, 0.2)
+      mdc-ripple-duration: 0.3s
