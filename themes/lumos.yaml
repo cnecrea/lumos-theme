@@ -74,6 +74,13 @@ Lumos:
       mdc-ripple-color: rgba(50, 130, 200, 0.3)
       mdc-ripple-duration: 0.3s
 
+      # 🎨 Seasonal Colors
+      spring-color: rgb(100, 175, 100) # Verde proaspăt
+      summer-color: rgb(245, 185, 85) # Galben cald
+      autumn-color: rgb(180, 100, 50) # Maro pământiu
+      winter-color: rgb(120, 170, 245) # Albastru rece
+      dynamic-primary-color: var(--spring-color)
+
     dark:
       # Culori principale
       primary-color: rgb(80, 149, 247)
@@ -142,3 +149,10 @@ Lumos:
       # Efecte vizuale
       mdc-ripple-color: rgba(80, 149, 247, 0.2)
       mdc-ripple-duration: 0.3s
+
+      # 🎨 Seasonal Colors
+      spring-color: rgb(80, 140, 80) # Verde proaspăt
+      summer-color: rgb(210, 150, 50) # Galben cald
+      autumn-color: rgb(140, 70, 40) # Maro pământiu
+      winter-color: rgb(90, 130, 210) # Albastru rece
+      dynamic-primary-color: var(--winter-color)
