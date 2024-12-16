@@ -55,6 +55,16 @@ Lumos:
       mdc-radio-checked-color: rgb(30, 109, 220)
       mdc-radio-hover-color: rgba(30, 109, 220, 0.1)
 
+      # Select Fields
+      mdc-select-fill-color: rgb(240, 240, 245) # Mai deschis decât fundalul general
+      mdc-select-ink-color: rgb(33, 37, 41)     # Text întunecat
+      mdc-select-label-ink-color: rgb(125, 127, 132) # Text de hint
+      mdc-select-idle-line-color: rgb(125, 127, 132) # Linie inactivă
+      mdc-select-hover-line-color: rgb(30, 109, 220) # Linie la hover
+      mdc-select-dropdown-icon-color: rgb(143, 145, 150) # Icon dropdown
+      mdc-select-focus-line-color: rgb(30, 109, 220) # Linie la focus
+      mdc-select-hover-fill-color: rgba(30, 109, 220, 0.1) # Fundal ușor albastru la hover
+
       # Input Fields
       input-fill-color: rgb(235, 236, 238)
       input-ink-color: rgb(33, 37, 41)
@@ -120,6 +130,16 @@ Lumos:
       mdc-radio-unchecked-color: rgb(191, 191, 191)
       mdc-radio-checked-color: rgb(80, 149, 247)
       mdc-radio-hover-color: rgba(80, 149, 247, 0.1)
+
+      # Select Fields
+      mdc-select-fill-color: rgb(44, 46, 50) # Ușor diferit față de background
+      mdc-select-ink-color: rgb(240, 240, 240)
+      mdc-select-label-ink-color: rgb(196, 197, 198)
+      mdc-select-idle-line-color: rgb(99, 101, 103)
+      mdc-select-hover-line-color: rgb(80, 149, 247)
+      mdc-select-dropdown-icon-color: rgb(159, 160, 161)
+      mdc-select-focus-line-color: rgb(80, 149, 247)
+      mdc-select-hover-fill-color: rgba(80, 149, 247, 0.1)
 
       # Input Fields
       input-fill-color: rgb(36, 38, 42)
