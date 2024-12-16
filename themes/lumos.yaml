@@ -6,7 +6,7 @@ Lumos:
       app-header-text-color: rgb(33, 37, 41)
       app-header-selection-bar-color: rgb(30, 109, 220)
       app-header-edit-background-color: rgb(195, 196, 198)
-      
+
       # Main Interface Colors
       primary-color: rgb(30, 109, 220)
       primary-background-color: rgb(245, 246, 248)
@@ -25,7 +25,9 @@ Lumos:
       sidebar-background-color: rgb(245, 246, 248)
       sidebar-selected-icon-color: rgb(3, 169, 244)
       sidebar-selected-text-color: rgb(33, 37, 41)
-      sidebar-icon-hover-color: rgba(30, 109, 220, 0.8)
+      sidebar-icon-hover-color: rgb(30, 109, 220)
+      sidebar-hover-background-color: rgba(30, 109, 220, 0.1)
+      sidebar-hover-text-color: rgb(30, 109, 220)
 
       # Buttons
       paper-item-icon-color: rgb(143, 145, 150)
@@ -41,7 +43,7 @@ Lumos:
       ha-card-border-color: rgb(228, 230, 234)
       card-border-radius: 12px
       card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
-      
+
       # Sliders
       slider-track-color: rgba(238, 240, 244, 0.6)
       slider-track-active-color: rgba(30, 109, 220, 0.3)
@@ -88,7 +90,9 @@ Lumos:
       sidebar-background-color: rgb(36, 38, 42)
       sidebar-selected-icon-color: rgb(80, 149, 247)
       sidebar-selected-text-color: rgb(240, 240, 240)
-      sidebar-icon-hover-color: rgba(80, 149, 247, 0.8)
+      sidebar-icon-hover-color: rgb(80, 149, 247)
+      sidebar-hover-background-color: rgba(80, 149, 247, 0.1)
+      sidebar-hover-text-color: rgb(80, 149, 247)
 
       # Buttons
       paper-item-icon-color: rgb(159, 160, 161)
@@ -104,10 +108,6 @@ Lumos:
       ha-card-border-color: rgb(48, 49, 53)
       card-border-radius: 12px
       card-shadow: 0 4px 6px rgba(0, 0, 0, 0.5)
-
-      # Background
-      dark-background-gradient: linear-gradient(135deg, rgb(36, 38, 42), rgb(28, 30, 33) 50%, rgb(20, 22, 25))
-      dark-background-pattern: url('/local/background-pattern.png') repeat
 
       # Sliders
       slider-track-color: rgba(98, 99, 103, 0.6)
