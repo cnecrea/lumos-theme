@@ -6,7 +6,7 @@ Lumos:
       app-header-text-color: rgb(33, 37, 41)
       app-header-selection-bar-color: rgb(30, 109, 220)
       app-header-edit-background-color: rgb(195, 196, 198)
-
+      
       # Main Interface Colors
       primary-color: rgb(30, 109, 220)
       primary-background-color: rgb(245, 246, 248)
@@ -31,15 +31,17 @@ Lumos:
       paper-item-icon-color: rgb(143, 145, 150)
       paper-item-icon-active-color: rgb(30, 109, 220)
       button-hover-background-color: rgba(30, 109, 220, 0.1)
-      button-shadow: 0 1px 3px rgba(0, 0, 0, 0.2)
-      button-border-radius: 6px
+      button-shadow: 0 4px 6px rgba(0, 0, 0, 0.2)
+      button-border-radius: 8px
+      button-active-glow: 0 0 8px rgba(30, 109, 220, 0.6)
+      transition: all 0.3s ease-in-out
 
       # Cards
       card-background-color: rgb(255, 255, 255)
       ha-card-border-color: rgb(228, 230, 234)
-      card-border-radius: 8px
-      card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
-
+      card-border-radius: 12px
+      card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+      
       # Sliders
       slider-track-color: rgba(238, 240, 244, 0.6)
       slider-track-active-color: rgba(30, 109, 220, 0.3)
@@ -92,14 +94,20 @@ Lumos:
       paper-item-icon-color: rgb(159, 160, 161)
       paper-item-icon-active-color: rgb(80, 149, 247)
       button-hover-background-color: rgba(80, 149, 247, 0.1)
-      button-shadow: 0 1px 3px rgba(0, 0, 0, 0.4)
-      button-border-radius: 6px
+      button-shadow: 0 4px 6px rgba(0, 0, 0, 0.4)
+      button-border-radius: 8px
+      button-active-glow: 0 0 12px rgba(80, 149, 247, 0.8)
+      transition: all 0.3s ease-in-out
 
       # Cards
       card-background-color: rgb(36, 38, 42)
       ha-card-border-color: rgb(48, 49, 53)
-      card-border-radius: 8px
-      card-shadow: 0 2px 4px rgba(0, 0, 0, 0.5)
+      card-border-radius: 12px
+      card-shadow: 0 4px 6px rgba(0, 0, 0, 0.5)
+
+      # Background
+      dark-background-gradient: linear-gradient(135deg, rgb(36, 38, 42), rgb(28, 30, 33) 50%, rgb(20, 22, 25))
+      dark-background-pattern: url('/local/background-pattern.png') repeat
 
       # Sliders
       slider-track-color: rgba(98, 99, 103, 0.6)
