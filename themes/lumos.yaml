@@ -62,6 +62,14 @@ Lumos:
       mdc-select-hover-line-color: rgb(30, 109, 220)
       mdc-text-field-fill-color: rgb(245, 246, 248)
 
+      # Radio Buttons
+      mdc-radio-unchecked-color: rgb(191, 191, 191)
+      mdc-radio-checked-color: rgb(30, 109, 220)
+      mdc-radio-disabled-color: rgba(169, 171, 176, 0.8)
+      mdc-radio-hover-color: rgba(30, 109, 220, 0.1)
+      mdc-radio-inner-circle-color: rgb(30, 109, 220)
+      mdc-radio-outer-circle-color: rgb(191, 191, 191)
+
       # Input Fields
       input-fill-color: rgb(235, 236, 238)
       input-dropdown-icon-color: rgb(125, 127, 132)
@@ -137,6 +145,14 @@ Lumos:
       mdc-select-dropdown-icon-color: rgb(158, 158, 158)
       mdc-select-hover-line-color: rgb(80, 149, 247)
       mdc-text-field-fill-color: rgb(36, 38, 42)
+
+      # Radio Buttons
+      mdc-radio-unchecked-color: rgb(191, 191, 191)
+      mdc-radio-checked-color: rgb(80, 149, 247)
+      mdc-radio-disabled-color: rgba(99, 101, 103, 0.8)
+      mdc-radio-hover-color: rgba(80, 149, 247, 0.1)
+      mdc-radio-inner-circle-color: rgb(80, 149, 247)
+      mdc-radio-outer-circle-color: rgb(191, 191, 191)
 
       # Input Fields
       input-fill-color: rgb(36, 38, 42)
