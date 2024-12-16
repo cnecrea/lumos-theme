@@ -19,64 +19,46 @@ Lumos:
       secondary-text-color: rgb(125, 127, 132)
       disabled-text-color: rgba(169, 171, 176, 0.8)
 
-      # Sidebar Menu
+      # Sidebar
+      sidebar-background-color: rgb(245, 246, 248)
       sidebar-icon-color: rgb(143, 145, 150)
       sidebar-text-color: rgb(125, 127, 132)
-      sidebar-background-color: rgb(245, 246, 248)
-      sidebar-selected-icon-color: rgb(3, 169, 244)
-      sidebar-selected-text-color: rgb(33, 37, 41)
-      sidebar-icon-hover-color: rgb(30, 109, 220)
       sidebar-hover-background-color: rgba(30, 109, 220, 0.1)
       sidebar-hover-text-color: rgb(30, 109, 220)
-
-      # Buttons
-      paper-item-icon-color: rgb(143, 145, 150)
-      paper-item-icon-active-color: rgb(30, 109, 220)
-      button-hover-background-color: rgba(30, 109, 220, 0.1)
-      button-shadow: 0 4px 6px rgba(0, 0, 0, 0.2)
-      button-border-radius: 8px
-      button-active-glow: 0 0 8px rgba(30, 109, 220, 0.6)
-      transition: all 0.3s ease-in-out
+      sidebar-selected-icon-color: rgb(3, 169, 244)
+      sidebar-selected-text-color: rgb(33, 37, 41)
 
       # Cards
       card-background-color: rgb(255, 255, 255)
-      ha-card-border-color: rgb(228, 230, 234)
       card-border-radius: 12px
       card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+
+      # Buttons
+      button-background-color: rgb(30, 109, 220)
+      button-text-color: rgb(255, 255, 255)
+      button-hover-background-color: rgba(30, 109, 220, 0.8)
+      button-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+      button-border-radius: 8px
 
       # Sliders
       slider-track-color: rgba(238, 240, 244, 0.6)
       slider-track-active-color: rgba(30, 109, 220, 0.3)
       paper-slider-knob-color: rgb(30, 109, 220)
-      paper-slider-pin-color: rgb(30, 109, 220)
       paper-slider-active-color: rgb(30, 109, 220)
 
       # Checkboxes
       mdc-checkbox-unchecked-color: rgb(191, 191, 191)
-      mdc-checkbox-disable-color: rgba(169, 171, 176, 0.8)
-      mdc-select-fill-color: rgb(245, 246, 248)
-      mdc-select-ink-color: rgb(33, 37, 41)
-      mdc-select-label-ink-color: rgb(125, 127, 132)
-      mdc-select-idle-line-color: rgb(33, 37, 41)
-      mdc-select-dropdown-icon-color: rgb(158, 158, 158)
-      mdc-select-hover-line-color: rgb(30, 109, 220)
-      mdc-text-field-fill-color: rgb(245, 246, 248)
+      mdc-checkbox-disabled-color: rgba(169, 171, 176, 0.8)
 
       # Radio Buttons
       mdc-radio-unchecked-color: rgb(191, 191, 191)
       mdc-radio-checked-color: rgb(30, 109, 220)
-      mdc-radio-disabled-color: rgba(169, 171, 176, 0.8)
       mdc-radio-hover-color: rgba(30, 109, 220, 0.1)
-      mdc-radio-inner-circle-color: rgb(30, 109, 220)
-      mdc-radio-outer-circle-color: rgb(191, 191, 191)
 
       # Input Fields
       input-fill-color: rgb(235, 236, 238)
-      input-dropdown-icon-color: rgb(125, 127, 132)
       input-ink-color: rgb(33, 37, 41)
-      input-label-ink-color: rgb(125, 127, 132)
       input-idle-line-color: rgb(33, 37, 41)
-      input-hover-line-color: rgb(30, 109, 220)
 
       # Error, Warning, Success, Info
       error-color: rgb(255, 48, 105)
@@ -103,64 +85,46 @@ Lumos:
       secondary-text-color: rgb(196, 197, 198)
       disabled-text-color: rgba(99, 101, 103, 0.8)
 
-      # Sidebar Menu
+      # Sidebar
+      sidebar-background-color: rgb(36, 38, 42)
       sidebar-icon-color: rgb(159, 160, 161)
       sidebar-text-color: rgb(197, 198, 199)
-      sidebar-background-color: rgb(36, 38, 42)
-      sidebar-selected-icon-color: rgb(80, 149, 247)
-      sidebar-selected-text-color: rgb(240, 240, 240)
-      sidebar-icon-hover-color: rgb(80, 149, 247)
       sidebar-hover-background-color: rgba(80, 149, 247, 0.1)
       sidebar-hover-text-color: rgb(80, 149, 247)
-
-      # Buttons
-      paper-item-icon-color: rgb(159, 160, 161)
-      paper-item-icon-active-color: rgb(80, 149, 247)
-      button-hover-background-color: rgba(80, 149, 247, 0.1)
-      button-shadow: 0 4px 6px rgba(0, 0, 0, 0.4)
-      button-border-radius: 8px
-      button-active-glow: 0 0 12px rgba(80, 149, 247, 0.8)
-      transition: all 0.3s ease-in-out
+      sidebar-selected-icon-color: rgb(80, 149, 247)
+      sidebar-selected-text-color: rgb(240, 240, 240)
 
       # Cards
       card-background-color: rgb(36, 38, 42)
-      ha-card-border-color: rgb(48, 49, 53)
       card-border-radius: 12px
       card-shadow: 0 4px 6px rgba(0, 0, 0, 0.5)
+
+      # Buttons
+      button-background-color: rgb(80, 149, 247)
+      button-text-color: rgb(255, 255, 255)
+      button-hover-background-color: rgba(80, 149, 247, 0.8)
+      button-shadow: 0 4px 8px rgba(0, 0, 0, 0.4)
+      button-border-radius: 8px
 
       # Sliders
       slider-track-color: rgba(98, 99, 103, 0.6)
       slider-track-active-color: rgba(80, 149, 247, 0.3)
       paper-slider-knob-color: rgb(80, 149, 247)
-      paper-slider-pin-color: rgb(80, 149, 247)
       paper-slider-active-color: rgb(80, 149, 247)
 
       # Checkboxes
       mdc-checkbox-unchecked-color: rgb(191, 191, 191)
-      mdc-checkbox-disable-color: rgba(99, 101, 103, 0.8)
-      mdc-select-fill-color: rgb(36, 38, 42)
-      mdc-select-ink-color: rgb(240, 240, 240)
-      mdc-select-label-ink-color: rgb(196, 197, 198)
-      mdc-select-idle-line-color: rgb(240, 240, 240)
-      mdc-select-dropdown-icon-color: rgb(158, 158, 158)
-      mdc-select-hover-line-color: rgb(80, 149, 247)
-      mdc-text-field-fill-color: rgb(36, 38, 42)
+      mdc-checkbox-disabled-color: rgba(99, 101, 103, 0.8)
 
       # Radio Buttons
       mdc-radio-unchecked-color: rgb(191, 191, 191)
       mdc-radio-checked-color: rgb(80, 149, 247)
-      mdc-radio-disabled-color: rgba(99, 101, 103, 0.8)
       mdc-radio-hover-color: rgba(80, 149, 247, 0.1)
-      mdc-radio-inner-circle-color: rgb(80, 149, 247)
-      mdc-radio-outer-circle-color: rgb(191, 191, 191)
 
       # Input Fields
       input-fill-color: rgb(36, 38, 42)
-      input-dropdown-icon-color: rgb(196, 197, 198)
       input-ink-color: rgb(240, 240, 240)
-      input-label-ink-color: rgb(196, 197, 198)
       input-idle-line-color: rgb(240, 240, 240)
-      input-hover-line-color: rgb(80, 149, 247)
 
       # Error, Warning, Success, Info
       error-color: rgb(255, 48, 105)
